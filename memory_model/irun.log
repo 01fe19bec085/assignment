@@ -1,0 +1,16 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Mar 19, 2022 at 11:02:13 IST
+irun
+	-access +rwc
+	ram_3_tb.v
+Recompiling... reason: file './ram_3_tb.v' is newer than expected.
+	expected: Mon Mar 14 12:07:04 2022
+	actual:   Sat Mar 19 09:31:26 2022
+file: ram_3_tb.v
+ initial  myspeed=35;
+       |
+ncvlog: *E,NOTSTT (ram_3_tb.v,23|7): expecting a statement [9(IEEE)].
+	module worklib.ram_3_tb:v
+		errors: 1, warnings: 0
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s051: Exiting on Mar 19, 2022 at 11:02:13 IST  (total: 00:00:00)
